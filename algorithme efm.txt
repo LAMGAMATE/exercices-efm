@@ -1,0 +1,71 @@
+Exercice 1 
+algorithme annee
+fonction est_bissextille(annee:entier) : booleen 
+R : booleén 
+Si annee div 4 alors 
+R <== oui 
+sinon
+Si annee div 400 alors 
+R <== oui 
+sinon 
+R<== no 
+fin si 
+fin si 
+retourne R 
+
+Variables 
+annee : entier 
+debut 
+Lire(annee)
+ecrire(est_bissextille(annee)) 
+fin
+
+2 - fonction annees_bissextille(siecle:entier) : entier 
+R : entier 
+pour siecle <== 1988 a 2000 pas 1 faire 
+si ( Siecle div 400 ) ou ( siecle div 4 ) ou ( siecle <> div 100 )
+R <== siecle 
+fin pour  
+retourne R 
+Variables
+siecle : entier
+Debut 
+lire(siecle)
+ecrire(annee_bissextilles(siecle))
+fin
+
+
+
+Exercice 2 
+fonction fonction(tab(i,j):entier , N , P : entier ) : entier 
+i , j : entier 
+Si ( N*P > 0 ) et ( N*P =< 10 ) alors 
+
+pour i <== 1 a N pas 1 faire
+pour j <== 1 a P pas 1 faire 
+R <=== T = [i,j]
+i = i + 1 
+j = j + 1 
+fin pour 
+fin pour 
+retourne R 
+Variables 
+N , P : entier 
+debut 
+ecrire("entrez N :")
+lire(N) 
+ecrire("entrez P :")
+lire(P)
+ecrire(fonction(tab(i,j),N,P))
+
+Exercice 3 
+algorithme somme_maximale
+variables 
+tab[] : reel  , i : entier 
+Debut 
+ecrire("entrez les nombres :") 
+Lire(N) 
+pour i <== -N a N faire
+lire(tab(i))
+
+
